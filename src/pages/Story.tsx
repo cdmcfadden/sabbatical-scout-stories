@@ -11,7 +11,7 @@ const Story = () => {
         <div className="max-w-3xl space-y-8">
           <section>
             <h2 className="text-3xl font-bold text-primary mb-4">The Beginning</h2>
-            <p className="text-muted-foreground text-lg">We fight for the user. This was our first and only rallying cry. It defines our design ethic. We</p>
+            <p className="text-muted-foreground text-lg">We fight for the user. This was our first and only rallying cry. We took early inspiration from the inherent promises of invisible computing and human-centric design ethics. We think it's time to bring this back, with vengeance.</p>
           </section>
           
           <section>
