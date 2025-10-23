@@ -6,7 +6,7 @@ const Blog = () => {
     {
       title: "Sparkline: Introducing the H.O.T. Composite Index",
       date: "November 15, 2025 (not yet published)",
-      excerpt: "Exploring how artificial intelligence is reshaping business operations and decision-making processes."
+      excerpt: "Scoring existing technologies on their contribution to the Humans Over Technology scale and what this means for you."
     },
     {
       title: "Data Privacy in the Modern Age",
