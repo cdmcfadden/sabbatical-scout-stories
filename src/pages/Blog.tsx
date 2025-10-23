@@ -16,7 +16,7 @@ const Blog = () => {
     {
       title: "Amazon Buys Their Way In: Zoox and the H.O.T. score for self-driving cars",
       date: "December 15, 2025 (not yet published)",
-      excerpt: "Self-driving vehicles may not have the charisma and raw sex appeal of a Total Recall \"Johnny Cab\" but there is no denying the massive upheaval they have been just about to have across society for the last 20 years..."
+      excerpt: "Today's self-driving vehicles may not have the charisma and raw sex appeal of a Total Recall \"Johnny Cab\" but there is no denying the massive upheaval they have been just about to have across society for the last 20 years..."
     }
   ];
 
