@@ -15,7 +15,7 @@ const Products = () => {
     },
     {
       title: "Resolve",
-      description: "Next-generation cloud infrastructure for scalable applications",
+      description: "Scalable workflow creation tool w/ native real-time analytics",
       status: "Prototype Phase | v1 Launch Anticipated Q1, 2026"
     }
   ];
