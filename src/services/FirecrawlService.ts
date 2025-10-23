@@ -78,8 +78,7 @@ export class FirecrawlService {
       const crawlResponse = await this.firecrawlApp.crawlUrl(`https://www.google.com/search?q=${encodeURIComponent(query)}`, {
         limit: 20,
         scrapeOptions: {
-          formats: ['markdown', 'html'],
-          includeLinks: true
+          formats: ['markdown', 'html']
         }
       }) as CrawlResponse;
 
