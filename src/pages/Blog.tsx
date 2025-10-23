@@ -9,9 +9,9 @@ const Blog = () => {
       excerpt: "Scoring existing technologies on their contribution to the Humans Over Technology scale and what this means for you."
     },
     {
-      title: "Data Privacy in the Modern Age",
-      date: "March 10, 2024",
-      excerpt: "Understanding the importance of data security and privacy in today's interconnected world."
+      title: "2 Security Breaches at MIT - and I Promise Neither was my Fault!",
+      date: "November 30, 2025 (not yet published)",
+      excerpt: "Which is harder to bypass on campus at MIT: platform security protocols or physical (campus) security. There's only one way to find out."
     },
     {
       title: "Building Scalable Cloud Architecture",
