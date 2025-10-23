@@ -9,7 +9,7 @@ const Products = () => {
       status: "Design Phase | Prototype Anticipated 2025"
     },
     {
-      title: "Resolve",
+      title: "Resolv",
       description: "Scalable workflow creation tool w/ native real-time analytics",
       status: "Prototype Phase | v1 Launch Anticipated Q1, 2026"
     },
