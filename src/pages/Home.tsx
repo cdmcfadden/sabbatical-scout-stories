@@ -34,7 +34,7 @@ const Home = () => {
             <div className="p-8 rounded-lg bg-card border border-border hover:border-primary transition-colors">
               <h3 className="text-2xl font-bold mb-4 text-primary">Humanity Over Technology</h3>
               <p className="text-muted-foreground">
-                Pushing boundaries with breakthrough technologies and forward-thinking solutions
+                Pushing boundaries by reconsidering the objective function
               </p>
             </div>
             <div className="p-8 rounded-lg bg-card border border-border hover:border-primary transition-colors">
