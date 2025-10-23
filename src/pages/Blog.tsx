@@ -11,7 +11,7 @@ const Blog = () => {
     {
       title: "2 Security Breaches at MIT - and I promise neither was my fault!",
       date: "November 30, 2025 (not yet published)",
-      excerpt: "Which is harder to bypass on campus at MIT: platform security protocols protected by some of the best brains on the planet, or physical (campus) security, protected by guys whose necks are bigger than their heads? There was only one way to find out."
+      excerpt: "Which is harder to bypass on campus at MIT: platform security protocols protected by some of the biggest brains on the planet, or physical (campus) security, protected by guys whose necks are somehow impossibly wider than their heads? There was only one risky way to find out..."
     },
     {
       title: "Amazon Buys Their Way In: Zoox and the H.O.T. score for self-driving cars",
