@@ -16,8 +16,7 @@ const About = () => {
           </p>
           
           <p>
-            Founded with a vision to transform industries through intelligent solutions, we partner
-            with forward-thinking organizations to solve their most complex challenges.
+            We 'practice like we play' and are developing a global network of domain experts, luminaries, and unorthodox dreamers that are passionate about contributing to a new way to size tech to the humans it must serve.
           </p>
           
           <p>
