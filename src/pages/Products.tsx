@@ -34,7 +34,7 @@ const Products = () => {
           Our Products
         </h1>
         <p className="text-xl text-muted-foreground mb-12 max-w-2xl">
-          Innovative solutions designed to empower your business
+          Innovative solutions designed to serve the user
         </p>
         
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
