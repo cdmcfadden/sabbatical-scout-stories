@@ -17,7 +17,18 @@ const Home = () => {
         }} />
           <div className="absolute inset-0 bg-gradient-to-b from-background/50 via-background/80 to-background z-0" />
           
-          
+          <div className="relative z-10 container mx-auto px-6 text-center">
+            <h1 className="text-5xl md:text-7xl font-bold mb-6 text-foreground">
+              Welcome to Barlow Labs
+            </h1>
+            <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
+              Establishing boundaries based on a new razor - a person must not serve their tech
+            </p>
+            <Button size="lg" className="group">
+              Get Started
+              <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+            </Button>
+          </div>
         </section>
 
         {/* Features Section */}
