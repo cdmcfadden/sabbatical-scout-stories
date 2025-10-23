@@ -4,7 +4,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 const Blog = () => {
   const posts = [
     {
-      title: "The Future of AI in Enterprise",
+      title: "Sparkline: Introducing the H.O.T. Composite Index",
       date: "March 15, 2024",
       excerpt: "Exploring how artificial intelligence is reshaping business operations and decision-making processes."
     },
