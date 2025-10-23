@@ -6,7 +6,7 @@ const Products = () => {
     {
       title: "Hyline Carbon",
       description: "Advanced analytics platform for real-time data visualization and insights",
-      status: "Available Now"
+      status: "Early Design Phase"
     },
     {
       title: "Neural Engine",
