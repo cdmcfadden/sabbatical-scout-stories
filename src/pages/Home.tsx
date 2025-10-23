@@ -2,33 +2,26 @@ import Navigation from '@/components/Navigation';
 import heroImage from '@/assets/barlow-hero.jpeg';
 import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
-
 const Home = () => {
-  return (
-    <div className="min-h-screen bg-background text-foreground">
+  return <div className="min-h-screen bg-background text-foreground">
       <Navigation />
       
       <main className="pt-20">
         {/* Hero Section */}
         <section className="relative h-[90vh] flex items-center justify-center overflow-hidden">
-          <div 
-            className="absolute inset-0 z-0"
-            style={{
-              backgroundImage: `url(${heroImage})`,
-              backgroundSize: 'cover',
-              backgroundPosition: 'center',
-              opacity: 0.3
-            }}
-          />
+          <div className="absolute inset-0 z-0" style={{
+          backgroundImage: `url(${heroImage})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          opacity: 0.3
+        }} />
           <div className="absolute inset-0 bg-gradient-to-b from-background/50 via-background/80 to-background z-0" />
           
           <div className="relative z-10 container mx-auto px-6 text-center">
             <h1 className="text-6xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent">
               Welcome to Barlow Labs
             </h1>
-            <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-              Pioneering the future through innovation, data, and cutting-edge technology
-            </p>
+            <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">Pioneeringthrough innovation, data, and cutting-edge technology</p>
             <Button size="lg" className="gap-2">
               Explore Our Work <ArrowRight size={20} />
             </Button>
@@ -59,8 +52,6 @@ const Home = () => {
           </div>
         </section>
       </main>
-    </div>
-  );
+    </div>;
 };
-
 export default Home;
