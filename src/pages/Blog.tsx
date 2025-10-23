@@ -9,7 +9,7 @@ const Blog = () => {
       excerpt: "Scoring existing technologies on their contribution to the Humans Over Technology scale and what this means for you."
     },
     {
-      title: "2 Security Breaches at MIT - and I Promise Neither was my Fault!",
+      title: "2 Security Breaches at MIT - and I promise neither was my fault!",
       date: "November 30, 2025 (not yet published)",
       excerpt: "Which is harder to bypass on campus at MIT: platform security protocols or physical (campus) security. There's only one way to find out."
     },
