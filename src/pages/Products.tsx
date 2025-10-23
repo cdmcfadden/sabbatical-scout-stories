@@ -14,7 +14,7 @@ const Products = () => {
       status: "Beta"
     },
     {
-      title: "Quantum Sync",
+      title: "Resolve",
       description: "Next-generation cloud infrastructure for scalable applications",
       status: "Coming Soon"
     }
