@@ -1,4 +1,6 @@
 import Navigation from '@/components/Navigation';
+import MailingListDialog from '@/components/MailingListDialog';
+
 const Story = () => {
   return <div className="min-h-screen bg-background text-foreground">
       <Navigation />
@@ -28,6 +30,7 @@ const Story = () => {
             <p className="text-muted-foreground text-lg">
               We remain in stealth mode, but we look forward to the time soon that we can engage with interested users and new community members. If you would like to be added to our mailing list please click the link below.
             </p>
+            <MailingListDialog />
           </section>
         </div>
       </main>
