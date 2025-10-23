@@ -26,9 +26,7 @@ const Story = () => {
           <section>
             <h2 className="text-3xl font-bold text-primary mb-4">Looking Forward</h2>
             <p className="text-muted-foreground text-lg">
-              As we continue to grow, our mission remains unchanged: to create technology that
-              transforms how people work, live, and connect. The future is being built today,
-              and we're excited to be part of it.
+              We remain in stealth mode, but we look forward to the time soon that we can engage with interested users and new community members. If you would like to be added to our mailing list please click the link below.
             </p>
           </section>
         </div>
