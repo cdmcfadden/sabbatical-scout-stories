@@ -1,7 +1,5 @@
 import Navigation from '@/components/Navigation';
 import heroImage from '@/assets/barlow-hero.jpeg';
-import { Button } from '@/components/ui/button';
-import { ArrowRight } from 'lucide-react';
 const Home = () => {
   return <div className="min-h-screen bg-background text-foreground">
       <Navigation />
@@ -22,9 +20,6 @@ const Home = () => {
               Welcome to Barlow Labs
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">Rethinking the human machine interface (HMI) through person-centric innovation, data, design, and cutting-edge technology</p>
-            <Button size="lg" className="gap-2">
-              Explore Our Work <ArrowRight size={20} />
-            </Button>
           </div>
         </section>
 
