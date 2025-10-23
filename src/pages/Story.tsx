@@ -1,8 +1,6 @@
 import Navigation from '@/components/Navigation';
-
 const Story = () => {
-  return (
-    <div className="min-h-screen bg-background text-foreground">
+  return <div className="min-h-screen bg-background text-foreground">
       <Navigation />
       
       <main className="pt-32 pb-20 container mx-auto px-6">
@@ -13,11 +11,7 @@ const Story = () => {
         <div className="max-w-3xl space-y-8">
           <section>
             <h2 className="text-3xl font-bold text-primary mb-4">The Beginning</h2>
-            <p className="text-muted-foreground text-lg">
-              Barlow Labs was born from a simple idea: technology should empower, not complicate.
-              In 2020, our founder recognized a gap between cutting-edge innovation and practical
-              business applications.
-            </p>
+            <p className="text-muted-foreground text-lg">We fight for the user. This was our first and only rallying cry. It defines our design ethic.</p>
           </section>
           
           <section>
@@ -39,8 +33,6 @@ const Story = () => {
           </section>
         </div>
       </main>
-    </div>
-  );
+    </div>;
 };
-
 export default Story;
