@@ -21,13 +21,9 @@ const Home = () => {
             <h1 className="text-5xl md:text-7xl font-bold mb-6 text-foreground">
               Welcome to Barlow Labs
             </h1>
-            <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
+            <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto">
               Establishing boundaries based on a new razor - a person must not serve their tech
             </p>
-            <Button size="lg" className="group">
-              Get Started
-              <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-            </Button>
           </div>
         </section>
 
