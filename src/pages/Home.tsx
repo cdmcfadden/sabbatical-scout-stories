@@ -40,7 +40,7 @@ const Home = () => {
             <div className="p-8 rounded-lg bg-card border border-border hover:border-primary transition-colors">
               <h3 className="text-2xl font-bold mb-4 text-accent">Humanity In Technology</h3>
               <p className="text-muted-foreground">
-                Leveraging advanced analytics to glean insight into the human condition - we learn and evolve
+                Leveraging advanced analytics to glean insight into the human condition - we learn and co-evolve together
               </p>
             </div>
             <div className="p-8 rounded-lg bg-card border border-border hover:border-primary transition-colors">
