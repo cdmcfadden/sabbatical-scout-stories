@@ -32,7 +32,7 @@ const Home = () => {
         <section className="py-24 container mx-auto px-6">
           <div className="grid md:grid-cols-3 gap-8">
             <div className="p-8 rounded-lg bg-card border border-border hover:border-primary transition-colors">
-              <h3 className="text-2xl font-bold mb-4 text-primary">Innovation</h3>
+              <h3 className="text-2xl font-bold mb-4 text-primary">Humans Over Technology</h3>
               <p className="text-muted-foreground">
                 Pushing boundaries with breakthrough technologies and forward-thinking solutions
               </p>
