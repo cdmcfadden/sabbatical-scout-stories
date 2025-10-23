@@ -14,7 +14,7 @@ const Blog = () => {
       excerpt: "Which is harder to bypass on campus at MIT: platform security protocols or physical (campus) security. There's only one way to find out."
     },
     {
-      title: "Amazon Buys Their Way In: Zoox and the Sparkline H.O.T. score for Zoox and self-driving generally",
+      title: "Amazon Buys Their Way In: Zoox and the H.O.T. score for self-driving cars",
       date: "December 15, 2025 (not yet published)",
       excerpt: "Best practices for designing and implementing cloud infrastructure that grows with your business."
     }
