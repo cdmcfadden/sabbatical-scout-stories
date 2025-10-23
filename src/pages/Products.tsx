@@ -9,7 +9,7 @@ const Products = () => {
       status: "Early Design Phase"
     },
     {
-      title: "Neural Engine",
+      title: "Camber",
       description: "AI-powered automation suite for enterprise workflows",
       status: "Beta"
     },
