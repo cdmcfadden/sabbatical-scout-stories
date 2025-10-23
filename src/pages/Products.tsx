@@ -17,6 +17,11 @@ const Products = () => {
       title: "Resolve",
       description: "Scalable workflow creation tool w/ native real-time analytics",
       status: "Prototype Phase | v1 Launch Anticipated Q1, 2026"
+    },
+    {
+      title: "The Brevists",
+      description: "Dynamic global community of travelers comparing very specific experiences",
+      status: "Research Phase | Currently Below the Line"
     }
   ];
 
