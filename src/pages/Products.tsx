@@ -10,7 +10,7 @@ const Products = () => {
     },
     {
       title: "Camber",
-      description: "AI-powered automation suite for enterprise workflows",
+      description: "Configurable Accountability Mesh Network for personalized peer-to-peer performance management",
       status: "Beta"
     },
     {
