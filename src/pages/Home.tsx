@@ -29,7 +29,7 @@ const Home = () => {
             <div className="p-8 rounded-lg bg-card border border-border hover:border-primary transition-colors">
               <h3 className="text-2xl font-bold mb-4 text-primary">Humanity Over Technology</h3>
               <p className="text-muted-foreground">
-                Establishing novel societal boundaries based on a new razor - a person must not serve their tech
+                Establishing novel societal norms and product categories based on a new razor - a person must not serve their tech
               </p>
             </div>
             <div className="p-8 rounded-lg bg-card border border-border hover:border-primary transition-colors">
