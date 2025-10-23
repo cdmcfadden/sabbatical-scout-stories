@@ -6,7 +6,7 @@ const Products = () => {
     {
       title: "Hyline Carbon",
       description: "Advanced platform for real-time personal health insights and accountability",
-      status: "Design Phase | Product Anticipated 2026"
+      status: "Design Phase | Prototype Anticipated 2025"
     },
     {
       title: "Camber",
