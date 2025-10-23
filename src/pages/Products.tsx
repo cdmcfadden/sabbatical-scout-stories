@@ -11,7 +11,7 @@ const Products = () => {
     {
       title: "Camber",
       description: "Configurable Accountability Mesh Network for personalized peer-to-peer performance management",
-      status: "Beta"
+      status: "Ideation Phase | Assessing Long Range Funding Needs"
     },
     {
       title: "Resolve",
