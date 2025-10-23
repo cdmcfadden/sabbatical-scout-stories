@@ -14,8 +14,8 @@ const Products = () => {
       status: "Prototype Phase | v1 Launch Anticipated Q1, 2026"
     },
     {
-      title: "Camber",
-      description: "Configurable Accountability Mesh Network for personalized peer-to-peer performance management",
+      title: "Cambr",
+      description: "Configurable Accountability Mesh Network (CAMN) for personalized peer-to-peer performance management",
       status: "Ideation Phase | Stay Tuned..."
     },
     {
