@@ -21,7 +21,7 @@ const Home = () => {
             <h1 className="text-6xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent">
               Welcome to Barlow Labs
             </h1>
-            <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">Pioneeringthrough innovation, data, and cutting-edge technology</p>
+            <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">Rethinking the human machine interface (HMI) through person-centric innovation, data, design, and cutting-edge technology</p>
             <Button size="lg" className="gap-2">
               Explore Our Work <ArrowRight size={20} />
             </Button>
