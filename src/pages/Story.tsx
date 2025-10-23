@@ -19,9 +19,7 @@ const Story = () => {
           <section>
             <h2 className="text-3xl font-bold text-accent mb-4">Our Journey</h2>
             <p className="text-muted-foreground text-lg">
-              What started as a small team of passionate engineers has grown into a leading force
-              in the tech industry. We've partnered with Fortune 500 companies, innovative startups,
-              and everything in between.
+              What started as a single idea became a complex set of nested products, requiring sequential development, testing, and refinement for PMF and scale. This has resulted in the establishment of an innovation lab for core platform and product concept refinement. As products prove their market value, each is graduated out of Barlow Labs and advanced into a stand alone venture, with incrementally more resourcing and funding.
             </p>
           </section>
           
