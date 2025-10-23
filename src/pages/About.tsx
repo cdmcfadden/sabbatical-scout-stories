@@ -12,8 +12,7 @@ const About = () => {
         
         <div className="max-w-3xl space-y-6 text-muted-foreground text-lg">
           <p>
-            Barlow Labs is at the forefront of technological innovation, combining deep expertise
-            in data science, artificial intelligence, and cutting-edge software development.
+            Barlow Labs is a new stealth start-up working backwards from our observations on the design and intended purpose of the human machine. We are obsessed with inventing and scaling personalized technology solutions that drive performance, accountability, and human health outcomes.
           </p>
           
           <p>
