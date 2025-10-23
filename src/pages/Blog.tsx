@@ -15,7 +15,7 @@ const Blog = () => {
     },
     {
       title: "Amazon Buys Their Way In: Zoox and the Sparkline H.O.T. score for Zoox and self-driving generally",
-      date: "March 5, 2024",
+      date: "December 15, 2025 (not yet published)",
       excerpt: "Best practices for designing and implementing cloud infrastructure that grows with your business."
     }
   ];
