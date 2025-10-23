@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { zodResolver } from '@hookform/resolvers/zod';
 import * as z from 'zod';
+import { supabase } from '@/integrations/supabase/client';
 import {
   Dialog,
   DialogContent,
@@ -71,17 +72,43 @@ const MailingListDialog = () => {
     },
   });
 
-  const onSubmit = (data: MailingListFormData) => {
-    // Here you would typically send the data to your backend
-    console.log('Form submitted:', data);
-    
-    toast({
-      title: "Thank you for joining!",
-      description: "We'll be in touch soon.",
-    });
-    
-    form.reset();
-    setOpen(false);
+  const onSubmit = async (data: MailingListFormData) => {
+    try {
+      const { error } = await supabase
+        .from('mailing_list_submissions')
+        .insert({
+          first_name: data.firstName,
+          last_name: data.lastName,
+          country: data.country,
+          email: data.email,
+          feedback: data.feedback || null,
+        });
+
+      if (error) {
+        console.error('Error submitting form:', error);
+        toast({
+          title: "Error",
+          description: "Failed to submit. Please try again.",
+          variant: "destructive",
+        });
+        return;
+      }
+
+      toast({
+        title: "Thank you for joining!",
+        description: "We'll be in touch soon.",
+      });
+      
+      form.reset();
+      setOpen(false);
+    } catch (error) {
+      console.error('Unexpected error:', error);
+      toast({
+        title: "Error",
+        description: "Something went wrong. Please try again.",
+        variant: "destructive",
+      });
+    }
   };
 
   return (
