@@ -38,7 +38,7 @@ const Home = () => {
               </p>
             </div>
             <div className="p-8 rounded-lg bg-card border border-border hover:border-primary transition-colors">
-              <h3 className="text-2xl font-bold mb-4 text-accent">Data-Driven</h3>
+              <h3 className="text-2xl font-bold mb-4 text-accent">Humanity In Technology</h3>
               <p className="text-muted-foreground">
                 Leveraging advanced analytics and insights to drive meaningful results
               </p>
