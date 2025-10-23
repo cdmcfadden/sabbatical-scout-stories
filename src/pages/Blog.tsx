@@ -5,7 +5,7 @@ const Blog = () => {
   const posts = [
     {
       title: "Sparkline: Introducing the H.O.T. Composite Index",
-      date: "March 15, 2024",
+      date: "November 15, 2025 (not yet published)",
       excerpt: "Exploring how artificial intelligence is reshaping business operations and decision-making processes."
     },
     {
