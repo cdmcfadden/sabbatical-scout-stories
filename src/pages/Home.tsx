@@ -6,7 +6,7 @@ const Home = () => {
       
       <main className="pt-20">
         {/* Hero Section */}
-        <section className="relative h-[90vh] flex items-center justify-center overflow-hidden">
+        <section className="relative h-[60vh] flex items-center justify-center overflow-hidden">
           <div className="absolute inset-0 z-0" style={{
           backgroundImage: `url(${heroImage})`,
           backgroundSize: 'cover',
@@ -24,7 +24,7 @@ const Home = () => {
         </section>
 
         {/* Features Section */}
-        <section className="py-24 container mx-auto px-6">
+        <section className="py-12 container mx-auto px-6">
           <div className="grid md:grid-cols-3 gap-8">
             <div className="p-8 rounded-lg bg-card border border-border hover:border-primary transition-colors">
               <h3 className="text-2xl font-bold mb-4 text-primary">Humanity Over Technology</h3>
