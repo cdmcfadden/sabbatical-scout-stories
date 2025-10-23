@@ -16,7 +16,7 @@ const Products = () => {
     {
       title: "Resolve",
       description: "Next-generation cloud infrastructure for scalable applications",
-      status: "Coming Soon"
+      status: "Prototype Phase | v1 Launch Anticipated Q1, 2026"
     }
   ];
 
