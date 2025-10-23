@@ -20,8 +20,7 @@ const About = () => {
           </p>
           
           <p>
-            Our team of world-class engineers, researchers, and designers work together to create
-            products that don't just meet today's needs, but anticipate tomorrow's possibilities.
+            We are based in the fractal known as Seattle, surrounded by three national parks and mountain peaks no-one's gotten around to naming yet. We believe beautiful places make the best tech.
           </p>
         </div>
       </main>
