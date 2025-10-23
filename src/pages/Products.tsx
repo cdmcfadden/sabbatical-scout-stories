@@ -6,12 +6,12 @@ const Products = () => {
     {
       title: "Hyline Carbon",
       description: "Advanced platform for real-time personal health insights and accountability",
-      status: "Early Design Phase"
+      status: "Design Phase | Product Anticipated 2026"
     },
     {
       title: "Camber",
       description: "Configurable Accountability Mesh Network for personalized peer-to-peer performance management",
-      status: "Design Phase | Product Anticipated 2026"
+      status: "Beta"
     },
     {
       title: "Quantum Sync",
