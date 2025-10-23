@@ -14,7 +14,7 @@ const Blog = () => {
       excerpt: "Which is harder to bypass on campus at MIT: platform security protocols or physical (campus) security. There's only one way to find out."
     },
     {
-      title: "Building Scalable Cloud Architecture",
+      title: "Amazon Buys Their Way In: Zoox and the Sparkline H.O.T. score for Zoox and self-driving generally",
       date: "March 5, 2024",
       excerpt: "Best practices for designing and implementing cloud infrastructure that grows with your business."
     }
