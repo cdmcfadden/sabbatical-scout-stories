@@ -4,7 +4,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 const Products = () => {
   const products = [
     {
-      title: "DataFlow Analytics",
+      title: "Hyline Carbon",
       description: "Advanced analytics platform for real-time data visualization and insights",
       status: "Available Now"
     },
