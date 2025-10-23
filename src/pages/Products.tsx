@@ -20,7 +20,7 @@ const Products = () => {
     },
     {
       title: "The Brevists",
-      description: "Dynamic global community of travelers comparing very specific experiences",
+      description: "Dynamic global community of travelers comparing unique experiences, preferences, and learnings",
       status: "Research Phase | Currently Below the Line"
     }
   ];
