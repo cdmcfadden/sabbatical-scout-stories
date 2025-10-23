@@ -9,14 +9,14 @@ const Products = () => {
       status: "Design Phase | Prototype Anticipated 2025"
     },
     {
-      title: "Camber",
-      description: "Configurable Accountability Mesh Network for personalized peer-to-peer performance management",
-      status: "Ideation Phase | Assessing Long Range Funding Needs"
-    },
-    {
       title: "Resolve",
       description: "Scalable workflow creation tool w/ native real-time analytics",
       status: "Prototype Phase | v1 Launch Anticipated Q1, 2026"
+    },
+    {
+      title: "Camber",
+      description: "Configurable Accountability Mesh Network for personalized peer-to-peer performance management",
+      status: "Ideation Phase | Assessing Long Range Funding Needs"
     },
     {
       title: "The Brevists",
