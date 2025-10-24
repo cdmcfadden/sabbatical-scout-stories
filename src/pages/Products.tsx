@@ -19,14 +19,14 @@ const Products = () => {
       status: "Ideation Phase | Stay Tuned..."
     },
     {
-      title: "The Brevists",
-      description: "Dynamic global community of travelers comparing unique experiences, preferences, and learnings",
-      status: "Research Phase | Currently Below the Line"
-    },
-    {
       title: "Nymity",
       description: "Sensor based identification and authentication technology platform",
       status: "Ideation Phase | Stay Tuned..."
+    },
+    {
+      title: "The Brevists",
+      description: "Dynamic global community of travelers comparing unique experiences, preferences, and learnings",
+      status: "Research Phase | Currently Below the Line"
     }
   ];
 
