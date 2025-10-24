@@ -58,7 +58,7 @@ const Home = () => {
               <div className="relative z-10">
                 <h3 className="text-2xl font-bold mb-4 text-accent group-hover:text-black transition-colors">Humanity In Technology</h3>
                 <p className="text-muted-foreground group-hover:text-black transition-colors">
-                  Leveraging advanced analytics to glean insight into the human condition - acknowledging we learn and co-evolve together
+                  Leveraging new analytics engines for insight on the human condition - we co-evolve together
                 </p>
               </div>
             </div>
