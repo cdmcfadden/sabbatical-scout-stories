@@ -26,23 +26,50 @@ const Home = () => {
         {/* Features Section */}
         <section className="py-12 container mx-auto px-6">
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="p-8 rounded-lg bg-card border border-border hover:border-primary transition-colors">
-              <h3 className="text-2xl font-bold mb-4 text-primary">Humanity Over Technology</h3>
-              <p className="text-muted-foreground">
-                Establishing novel societal norms and product categories based on a new razor - a person must not serve their tech
-              </p>
+            <div className="relative p-8 rounded-lg bg-card border border-border hover:border-primary transition-colors overflow-hidden group">
+              <div 
+                className="absolute inset-0 opacity-0 group-hover:opacity-40 transition-opacity duration-500 bg-cover bg-center"
+                style={{
+                  backgroundImage: `url(${heroImage})`,
+                  filter: 'invert(1)'
+                }}
+              />
+              <div className="relative z-10">
+                <h3 className="text-2xl font-bold mb-4 text-primary">Humanity Over Technology</h3>
+                <p className="text-muted-foreground">
+                  Establishing novel societal norms and product categories based on a new razor - a person must not serve their tech
+                </p>
+              </div>
             </div>
-            <div className="p-8 rounded-lg bg-card border border-border hover:border-primary transition-colors">
-              <h3 className="text-2xl font-bold mb-4 text-accent">Humanity In Technology</h3>
-              <p className="text-muted-foreground">
-                Leveraging advanced analytics to glean insight into the human condition - acknowledging we learn and co-evolve together
-              </p>
+            <div className="relative p-8 rounded-lg bg-card border border-border hover:border-primary transition-colors overflow-hidden group">
+              <div 
+                className="absolute inset-0 opacity-0 group-hover:opacity-40 transition-opacity duration-500 bg-cover bg-center"
+                style={{
+                  backgroundImage: `url(${heroImage})`,
+                  filter: 'invert(1)'
+                }}
+              />
+              <div className="relative z-10">
+                <h3 className="text-2xl font-bold mb-4 text-accent">Humanity In Technology</h3>
+                <p className="text-muted-foreground">
+                  Leveraging advanced analytics to glean insight into the human condition - acknowledging we learn and co-evolve together
+                </p>
+              </div>
             </div>
-            <div className="p-8 rounded-lg bg-card border border-border hover:border-primary transition-colors">
-              <h3 className="text-2xl font-bold mb-4 text-primary">Humanity Through Technology</h3>
-              <p className="text-muted-foreground">
-                Delivering improvements in human flourishing with a new objective function - leave no (wo)man where you found them
-              </p>
+            <div className="relative p-8 rounded-lg bg-card border border-border hover:border-primary transition-colors overflow-hidden group">
+              <div 
+                className="absolute inset-0 opacity-0 group-hover:opacity-40 transition-opacity duration-500 bg-cover bg-center"
+                style={{
+                  backgroundImage: `url(${heroImage})`,
+                  filter: 'invert(1)'
+                }}
+              />
+              <div className="relative z-10">
+                <h3 className="text-2xl font-bold mb-4 text-primary">Humanity Through Technology</h3>
+                <p className="text-muted-foreground">
+                  Delivering improvements in human flourishing with a new objective function - leave no (wo)man where you found them
+                </p>
+              </div>
             </div>
           </div>
         </section>
