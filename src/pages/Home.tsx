@@ -76,7 +76,7 @@ const Home = () => {
               <div className="relative z-10">
                 <h3 className="text-2xl font-bold mb-4 text-primary group-hover:text-black transition-colors">Humanity Through Technology</h3>
                 <p className="text-muted-foreground group-hover:text-black transition-colors">
-                  Delivering improvements in human flourishing with a new objective function - leave no (wo)man where you found them
+                  Making good on a new objective function - leave no wo/man where you found them
                 </p>
               </div>
             </div>
