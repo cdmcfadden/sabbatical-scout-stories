@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import Navigation from '@/components/Navigation';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import blueprintBg from '@/assets/blueprint1.avif';
 
 const Products = () => {
   const [isHovered, setIsHovered] = useState(false);
@@ -33,7 +34,13 @@ const Products = () => {
   ];
 
   return (
-    <div className={`min-h-screen text-foreground transition-colors duration-500 ${isHovered ? 'bg-white' : 'bg-background'}`}>
+    <div 
+      className="min-h-screen text-foreground transition-all duration-500 bg-cover bg-center bg-no-repeat"
+      style={{
+        backgroundImage: isHovered ? `url(${blueprintBg})` : 'none',
+        backgroundColor: isHovered ? 'transparent' : 'hsl(var(--background))'
+      }}
+    >
       <Navigation />
       
       <main className="pt-32 pb-20 container mx-auto px-6">
