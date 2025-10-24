@@ -23,7 +23,7 @@ const Story = () => {
           <section>
             <h2 className="text-3xl font-bold text-primary mb-4">Our Vision for The Future</h2>
             <p className="text-muted-foreground text-lg">
-              We imagine an impossible future, but one that we are more than willing to devote our time, energy, and effort to fractionally realize: a world where traditional measures of success give up their seat to the true human flourishing that good tech promotes: reconciliation, sacrificial love, admission of your mistakes, rescue of those in need. A body, mind, and soul at peace. A kind word offered to a broken stranger that is becoming numb to the world's tragedies. We remain in stealth mode, but we look forward to the time soon that we can engage with interested users and new community members. If you would like to be added to our mailing list please click the link below.
+              We imagine an impossible future, but one that we are more than willing to devote our time, energy, and effort to fractionally realize: a world where traditional measures of success give up their seat to the true human flourishing that good tech promotes: reconciliation, sacrificial love, admission of your mistakes, rescue of those in need. A body, mind, and soul at peace. A kind word offered to a broken stranger. We remain in stealth mode, but we look forward to the time soon that we can engage with interested users and new community members. If you would like to be added to our mailing list please click the link below.
             </p>
             <MailingListDialog />
           </section>
