@@ -17,7 +17,7 @@ const Story = () => {
           
           <section>
             <h2 className="text-3xl font-bold text-accent mb-4">Our Emerging Journey</h2>
-            <p className="text-muted-foreground text-lg">What started as a single idea became a complex set of nested products, requiring sequential development, testing, and refinement for PMF and scale. This has required the foundning of an innovation lab for core platform and product concept refinement. As products prove their human value, then their market value, and each is graduated out of Barlow Labs and advanced into a stand alone venture, with incrementally more resourcing and funding. Our goal is constant innovation.</p>
+            <p className="text-muted-foreground text-lg">What started as a single idea became a complex set of nested products, requiring sequential development, testing, and refinement for PMF and scale. This has required the founding of an innovation lab for core platform and product concept refinement. Products prove their human value, then their market value, and then each is graduated out of Barlow Labs and advanced into a stand alone venture, receiving incrementally more resourcing and funding. Our goal is to maintain a constant innovation drumbeat.</p>
           </section>
           
           <section>
