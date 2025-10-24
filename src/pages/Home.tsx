@@ -27,16 +27,6 @@ const Home = () => {
         <section className="py-12 container mx-auto px-6">
           <div className="grid md:grid-cols-3 gap-8">
             <div className="relative p-8 rounded-lg bg-card group-hover:bg-white border border-border hover:border-primary transition-colors overflow-hidden group">
-              <div 
-                className="absolute inset-0 opacity-0 group-hover:opacity-70 transition-opacity duration-500"
-                style={{
-                  backgroundImage: `url(${heroImage})`,
-                  backgroundSize: 'cover',
-                  backgroundPosition: 'center',
-                  backgroundRepeat: 'no-repeat',
-                  filter: 'invert(1) brightness(1.3)'
-                }}
-              />
               <div className="relative z-10">
                 <h3 className="text-2xl font-bold mb-4 text-primary group-hover:text-black transition-colors">Humanity Over Technology</h3>
                 <p className="text-muted-foreground group-hover:text-black transition-colors">
@@ -45,16 +35,6 @@ const Home = () => {
               </div>
             </div>
             <div className="relative p-8 rounded-lg bg-card group-hover:bg-white border border-border hover:border-primary transition-colors overflow-hidden group">
-              <div 
-                className="absolute inset-0 opacity-0 group-hover:opacity-70 transition-opacity duration-500"
-                style={{
-                  backgroundImage: `url(${heroImage})`,
-                  backgroundSize: 'cover',
-                  backgroundPosition: 'center',
-                  backgroundRepeat: 'no-repeat',
-                  filter: 'invert(1) brightness(1.3)'
-                }}
-              />
               <div className="relative z-10">
                 <h3 className="text-2xl font-bold mb-4 text-accent group-hover:text-black transition-colors">Humanity In Technology</h3>
                 <p className="text-muted-foreground group-hover:text-black transition-colors">
@@ -63,16 +43,6 @@ const Home = () => {
               </div>
             </div>
             <div className="relative p-8 rounded-lg bg-card group-hover:bg-white border border-border hover:border-primary transition-colors overflow-hidden group">
-              <div 
-                className="absolute inset-0 opacity-0 group-hover:opacity-70 transition-opacity duration-500"
-                style={{
-                  backgroundImage: `url(${heroImage})`,
-                  backgroundSize: 'cover',
-                  backgroundPosition: 'center',
-                  backgroundRepeat: 'no-repeat',
-                  filter: 'invert(1) brightness(1.3)'
-                }}
-              />
               <div className="relative z-10">
                 <h3 className="text-2xl font-bold mb-4 text-primary group-hover:text-black transition-colors">Humanity Through Technology</h3>
                 <p className="text-muted-foreground group-hover:text-black transition-colors">
