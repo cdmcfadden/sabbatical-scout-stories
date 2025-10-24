@@ -1,6 +1,5 @@
 import Navigation from '@/components/Navigation';
 import MailingListDialog from '@/components/MailingListDialog';
-
 const Story = () => {
   return <div className="min-h-screen bg-background text-foreground">
       <Navigation />
@@ -12,7 +11,7 @@ const Story = () => {
         
         <div className="max-w-3xl space-y-8">
           <section>
-            <h2 className="text-3xl font-bold text-primary mb-4">The Beginning</h2>
+            <h2 className="text-3xl font-bold text-primary mb-4">Our Inspiration</h2>
             <p className="text-muted-foreground text-lg">We fight for the user. This was our first and only rallying cry. We took early inspiration from the inherent promises of invisible computing and human-centric design ethics. We think it's time to bring this back, with vengeance. Our beginning is focused on product-izable solutions that meet the daily human needs in front of us today.</p>
           </section>
           
