@@ -37,7 +37,7 @@ const Home = () => {
               <div className="relative z-10">
                 <h3 className="text-2xl font-bold mb-4 text-primary group-hover:text-black transition-colors">Humanity Over Technology</h3>
                 <p className="text-muted-foreground group-hover:text-black transition-colors">
-                  Establishing novel societal norms and product categories based on a new razor - a person must not serve their tech
+                  Building products based on a new razor for society - a person must not serve their tech
                 </p>
               </div>
             </div>
