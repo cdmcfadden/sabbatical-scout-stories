@@ -28,10 +28,13 @@ const Home = () => {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="relative p-8 rounded-lg bg-card border border-border hover:border-primary transition-colors overflow-hidden group">
               <div 
-                className="absolute inset-0 opacity-0 group-hover:opacity-40 transition-opacity duration-500 bg-cover bg-center"
+                className="absolute inset-0 opacity-0 group-hover:opacity-70 transition-opacity duration-500"
                 style={{
                   backgroundImage: `url(${heroImage})`,
-                  filter: 'invert(1)'
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center',
+                  backgroundRepeat: 'no-repeat',
+                  filter: 'invert(1) brightness(1.3)'
                 }}
               />
               <div className="relative z-10">
@@ -43,10 +46,13 @@ const Home = () => {
             </div>
             <div className="relative p-8 rounded-lg bg-card border border-border hover:border-primary transition-colors overflow-hidden group">
               <div 
-                className="absolute inset-0 opacity-0 group-hover:opacity-40 transition-opacity duration-500 bg-cover bg-center"
+                className="absolute inset-0 opacity-0 group-hover:opacity-70 transition-opacity duration-500"
                 style={{
                   backgroundImage: `url(${heroImage})`,
-                  filter: 'invert(1)'
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center',
+                  backgroundRepeat: 'no-repeat',
+                  filter: 'invert(1) brightness(1.3)'
                 }}
               />
               <div className="relative z-10">
@@ -58,10 +64,13 @@ const Home = () => {
             </div>
             <div className="relative p-8 rounded-lg bg-card border border-border hover:border-primary transition-colors overflow-hidden group">
               <div 
-                className="absolute inset-0 opacity-0 group-hover:opacity-40 transition-opacity duration-500 bg-cover bg-center"
+                className="absolute inset-0 opacity-0 group-hover:opacity-70 transition-opacity duration-500"
                 style={{
                   backgroundImage: `url(${heroImage})`,
-                  filter: 'invert(1)'
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center',
+                  backgroundRepeat: 'no-repeat',
+                  filter: 'invert(1) brightness(1.3)'
                 }}
               />
               <div className="relative z-10">
