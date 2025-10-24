@@ -1,7 +1,9 @@
+import { useState } from 'react';
 import Navigation from '@/components/Navigation';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 
 const Products = () => {
+  const [isHovered, setIsHovered] = useState(false);
   const products = [
     {
       title: "Hyline Carbon",
@@ -31,7 +33,7 @@ const Products = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-background text-foreground">
+    <div className={`min-h-screen text-foreground transition-colors duration-500 ${isHovered ? 'bg-white' : 'bg-background'}`}>
       <Navigation />
       
       <main className="pt-32 pb-20 container mx-auto px-6">
@@ -44,7 +46,12 @@ const Products = () => {
         
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {products.map((product, index) => (
-            <Card key={index} className="bg-card border-border hover:border-primary transition-colors">
+            <Card 
+              key={index} 
+              className="bg-card border-border hover:border-primary transition-colors"
+              onMouseEnter={() => setIsHovered(true)}
+              onMouseLeave={() => setIsHovered(false)}
+            >
               <CardHeader>
                 <CardTitle className="text-primary">{product.title}</CardTitle>
                 <CardDescription className="text-accent">{product.status}</CardDescription>
