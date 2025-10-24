@@ -44,7 +44,10 @@ const Products = () => {
       <Navigation />
       
       <main className="pt-32 pb-20 container mx-auto px-6">
-        <h1 className={`text-5xl font-bold mb-4 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent transition-all duration-500 ${isHovered ? '[text-shadow:_-1px_-1px_0_white,_1px_-1px_0_white,_-1px_1px_0_white,_1px_1px_0_white]' : ''}`}>
+        <h1 
+          className="text-5xl font-bold mb-4 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent transition-all duration-500"
+          style={isHovered ? { WebkitTextStroke: '1px white' } : {}}
+        >
           Our Products
         </h1>
         <p className="text-xl text-muted-foreground mb-12 max-w-2xl">
