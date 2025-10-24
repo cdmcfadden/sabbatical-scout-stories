@@ -58,7 +58,7 @@ const Products = () => {
           {products.map((product, index) => (
             <Card 
               key={index} 
-              className="bg-card border-border hover:border-primary hover:bg-card/60 transition-colors"
+              className="bg-card border-border hover:border-primary hover:bg-card/80 transition-colors"
               onMouseEnter={() => setIsHovered(true)}
               onMouseLeave={() => setIsHovered(false)}
             >
