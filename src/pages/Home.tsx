@@ -1,7 +1,24 @@
+import { useState } from 'react';
 import Navigation from '@/components/Navigation';
 import heroImage from '@/assets/barlow-hero.jpeg';
+
 const Home = () => {
-  return <div className="min-h-screen bg-background text-foreground">
+  const [hoveredCard, setHoveredCard] = useState<number | null>(null);
+  
+  const getBackgroundClass = () => {
+    switch(hoveredCard) {
+      case 1:
+        return 'bg-gradient-to-br from-orange-500/20 to-red-500/20';
+      case 2:
+        return 'bg-gradient-to-br from-amber-500/20 to-yellow-500/20';
+      case 3:
+        return 'bg-gradient-to-br from-red-500/20 to-orange-600/20';
+      default:
+        return 'bg-background';
+    }
+  };
+  
+  return <div className={`min-h-screen text-foreground transition-colors duration-700 ease-in-out ${getBackgroundClass()}`}>
       <Navigation />
       
       <main className="pt-20">
@@ -26,7 +43,11 @@ const Home = () => {
         {/* Features Section */}
         <section className="py-12 container mx-auto px-6">
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="relative p-8 rounded-lg bg-card hover:!bg-white border border-border hover:border-primary transition-colors overflow-hidden group">
+            <div 
+              className="relative p-8 rounded-lg bg-card hover:!bg-white border border-border hover:border-primary transition-colors overflow-hidden group"
+              onMouseEnter={() => setHoveredCard(1)}
+              onMouseLeave={() => setHoveredCard(null)}
+            >
               <div className="relative z-10">
                 <h3 className="text-2xl font-bold mb-4 text-primary group-hover:text-black transition-colors">Humanity Over Technology</h3>
                 <p className="text-muted-foreground group-hover:text-black transition-colors">
@@ -34,7 +55,11 @@ const Home = () => {
                 </p>
               </div>
             </div>
-            <div className="relative p-8 rounded-lg bg-card hover:!bg-white border border-border hover:border-primary transition-colors overflow-hidden group">
+            <div 
+              className="relative p-8 rounded-lg bg-card hover:!bg-white border border-border hover:border-primary transition-colors overflow-hidden group"
+              onMouseEnter={() => setHoveredCard(2)}
+              onMouseLeave={() => setHoveredCard(null)}
+            >
               <div className="relative z-10">
                 <h3 className="text-2xl font-bold mb-4 text-accent group-hover:text-black transition-colors">Humanity In Technology</h3>
                 <p className="text-muted-foreground group-hover:text-black transition-colors">
@@ -42,7 +67,11 @@ const Home = () => {
                 </p>
               </div>
             </div>
-            <div className="relative p-8 rounded-lg bg-card hover:!bg-white border border-border hover:border-primary transition-colors overflow-hidden group">
+            <div 
+              className="relative p-8 rounded-lg bg-card hover:!bg-white border border-border hover:border-primary transition-colors overflow-hidden group"
+              onMouseEnter={() => setHoveredCard(3)}
+              onMouseLeave={() => setHoveredCard(null)}
+            >
               <div className="relative z-10">
                 <h3 className="text-2xl font-bold mb-4 text-primary group-hover:text-black transition-colors">Humanity Through Technology</h3>
                 <p className="text-muted-foreground group-hover:text-black transition-colors">
