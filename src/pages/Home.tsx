@@ -35,8 +35,8 @@ const Home = () => {
                 }}
               />
               <div className="relative z-10">
-                <h3 className="text-2xl font-bold mb-4 text-primary">Humanity Over Technology</h3>
-                <p className="text-muted-foreground">
+                <h3 className="text-2xl font-bold mb-4 text-primary group-hover:text-black transition-colors">Humanity Over Technology</h3>
+                <p className="text-muted-foreground group-hover:text-black transition-colors">
                   Establishing novel societal norms and product categories based on a new razor - a person must not serve their tech
                 </p>
               </div>
@@ -50,8 +50,8 @@ const Home = () => {
                 }}
               />
               <div className="relative z-10">
-                <h3 className="text-2xl font-bold mb-4 text-accent">Humanity In Technology</h3>
-                <p className="text-muted-foreground">
+                <h3 className="text-2xl font-bold mb-4 text-accent group-hover:text-black transition-colors">Humanity In Technology</h3>
+                <p className="text-muted-foreground group-hover:text-black transition-colors">
                   Leveraging advanced analytics to glean insight into the human condition - acknowledging we learn and co-evolve together
                 </p>
               </div>
@@ -65,8 +65,8 @@ const Home = () => {
                 }}
               />
               <div className="relative z-10">
-                <h3 className="text-2xl font-bold mb-4 text-primary">Humanity Through Technology</h3>
-                <p className="text-muted-foreground">
+                <h3 className="text-2xl font-bold mb-4 text-primary group-hover:text-black transition-colors">Humanity Through Technology</h3>
+                <p className="text-muted-foreground group-hover:text-black transition-colors">
                   Delivering improvements in human flourishing with a new objective function - leave no (wo)man where you found them
                 </p>
               </div>
