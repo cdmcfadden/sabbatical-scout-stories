@@ -26,7 +26,7 @@ const Home = () => {
         {/* Features Section */}
         <section className="py-12 container mx-auto px-6">
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="relative p-8 rounded-lg bg-card border border-border hover:border-primary transition-colors overflow-hidden group">
+            <div className="relative p-8 rounded-lg bg-card group-hover:bg-white border border-border hover:border-primary transition-colors overflow-hidden group">
               <div 
                 className="absolute inset-0 opacity-0 group-hover:opacity-70 transition-opacity duration-500"
                 style={{
@@ -44,7 +44,7 @@ const Home = () => {
                 </p>
               </div>
             </div>
-            <div className="relative p-8 rounded-lg bg-card border border-border hover:border-primary transition-colors overflow-hidden group">
+            <div className="relative p-8 rounded-lg bg-card group-hover:bg-white border border-border hover:border-primary transition-colors overflow-hidden group">
               <div 
                 className="absolute inset-0 opacity-0 group-hover:opacity-70 transition-opacity duration-500"
                 style={{
@@ -62,7 +62,7 @@ const Home = () => {
                 </p>
               </div>
             </div>
-            <div className="relative p-8 rounded-lg bg-card border border-border hover:border-primary transition-colors overflow-hidden group">
+            <div className="relative p-8 rounded-lg bg-card group-hover:bg-white border border-border hover:border-primary transition-colors overflow-hidden group">
               <div 
                 className="absolute inset-0 opacity-0 group-hover:opacity-70 transition-opacity duration-500"
                 style={{
