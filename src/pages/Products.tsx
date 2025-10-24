@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import Navigation from '@/components/Navigation';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
-import blueprintBg from '@/assets/blueprint1.avif';
+import blueprintBg from '@/assets/blueprint-negative.png';
 
 const Products = () => {
   const [isHovered, setIsHovered] = useState(false);
