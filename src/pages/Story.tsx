@@ -12,7 +12,7 @@ const Story = () => {
         <div className="max-w-3xl space-y-8">
           <section>
             <h2 className="text-3xl font-bold text-primary mb-4">Our Early Inspiration</h2>
-            <p className="text-muted-foreground text-lg">We fight for the user and take inspiration from the early promises made by leading technologists: invisible computing, global human connections, enhanced self-knowledge, expanded capabilities. The chance to be as human as we've ever been. That is our design ethic and thinking this way leads to different products, different people, and a different company. </p>
+            <p className="text-muted-foreground text-lg">We fight for the user and take inspiration from the early promises made by leading technologists: invisible computing, global human connections, enhanced self-knowledge, expanded capabilities. The chance to be as human as we've ever been. The decision to make the first check-point of design not: will people buy this, but will people become who they were meant to be through it. That is our design ethic and thinking this way leads to different products, different people, and a different company. </p>
           </section>
           
           <section>
