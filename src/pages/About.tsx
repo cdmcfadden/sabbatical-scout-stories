@@ -13,9 +13,7 @@ const About = () => {
           
           <p>We 'practice like we play' and are developing a global network of domain experts, luminaries, and unorthodox dreamers that are passionate about contributing to a new way to size tech to the humans it must serve. Maybe you know one of those people or are one yourself.</p>
           
-          <p>
-            We are based in the fractal known as Seattle, surrounded by three national parks and mountain peaks no-one's gotten around to naming yet. We believe beautiful places make the best tech.
-          </p>
+          <p>Our headquarters is in the fractal known as Seattle, surrounded by national parks, alpine lakes, and mountains still waiting to be named. We believe beautiful places make the best tech.</p>
         </div>
       </main>
     </div>;
