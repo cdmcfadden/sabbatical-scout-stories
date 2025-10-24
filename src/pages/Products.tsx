@@ -47,7 +47,7 @@ const Products = () => {
         <h1 className="text-5xl font-bold mb-4 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
           Our Products
         </h1>
-        <p className="text-xl text-muted-foreground mb-12 max-w-2xl">
+        <p className={`text-xl mb-12 max-w-2xl transition-colors duration-500 ${isHovered ? 'text-gray-900' : 'text-muted-foreground'}`}>
           Innovative solutions designed to serve the user
         </p>
         
