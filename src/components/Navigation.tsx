@@ -29,16 +29,16 @@ const Navigation = () => {
               Story
             </Link>
             <Link 
-              to="/blog" 
-              className="text-muted-foreground hover:text-foreground transition-colors"
-            >
-              Blog
-            </Link>
-            <Link 
               to="/bench" 
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
               Bench
+            </Link>
+            <Link 
+              to="/blog" 
+              className="text-muted-foreground hover:text-foreground transition-colors"
+            >
+              Blog
             </Link>
           </div>
         </div>
