@@ -5,23 +5,28 @@ const Products = () => {
   const products = [{
     title: "Hyline Carbon",
     description: "Advanced platform for real-time personal health insights and accountability",
-    status: "Design Phase | Prototype Anticipated 2025"
+    status: "Design Phase | Prototype Anticipated 2025",
+    backgroundPosition: "0% 0%"
   }, {
     title: "Resolv",
     description: "Scalable workflow creation tool w/ native real-time analytics",
-    status: "Prototype Phase | v1 Launch Anticipated Q1, 2026"
+    status: "Prototype Phase | v1 Launch Anticipated Q1, 2026",
+    backgroundPosition: "100% 0%"
   }, {
     title: "Cambr",
     description: "Configurable Accountability Mesh Network (CAMN) for personalized peer-to-peer performance management",
-    status: "Ideation Phase | Stay Tuned..."
+    status: "Ideation Phase | Stay Tuned...",
+    backgroundPosition: "50% 50%"
   }, {
     title: "Nymity",
     description: "Sensor based identification and authentication technology platform",
-    status: "Ideation Phase | Stay Tuned..."
+    status: "Ideation Phase | Stay Tuned...",
+    backgroundPosition: "0% 100%"
   }, {
     title: "The Brevists",
     description: "Dynamic global community of travelers comparing unique experiences, preferences, and learnings",
-    status: "Research Phase | Currently Below the Line"
+    status: "Research Phase | Currently Below the Line",
+    backgroundPosition: "100% 100%"
   }];
   return <div className="min-h-screen text-foreground bg-background">
       <Navigation />
@@ -38,8 +43,8 @@ const Products = () => {
               transition: 'all 0.3s ease'
             }} onMouseEnter={(e) => {
               e.currentTarget.style.backgroundImage = `url(${blueprintBg})`;
-              e.currentTarget.style.backgroundSize = 'cover';
-              e.currentTarget.style.backgroundPosition = 'center';
+              e.currentTarget.style.backgroundSize = '200%';
+              e.currentTarget.style.backgroundPosition = product.backgroundPosition;
             }} onMouseLeave={(e) => {
               e.currentTarget.style.backgroundImage = 'none';
             }}>
