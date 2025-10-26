@@ -4,7 +4,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 const Blog = () => {
   const posts = [
     {
-      title: "Sparkline: Introducing the H.O.T. Composite Index",
+      title: "Core technology decisions behind initial Barlow Labs",
       date: "November 15, 2025 (not yet published)",
       excerpt: "Scoring existing technologies on their contribution to the Humans Over Technology H.O.T. scale and why you should care. Or if you don't care, why this makes you a horrible human being..."
     }
