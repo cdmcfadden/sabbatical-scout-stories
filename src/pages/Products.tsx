@@ -1,9 +1,7 @@
-import { useState } from 'react';
 import Navigation from '@/components/Navigation';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import blueprintBg from '@/assets/blueprint-negative.png';
 const Products = () => {
-  const [isHovered, setIsHovered] = useState(false);
   const products = [{
     title: "Hyline Carbon",
     description: "Advanced platform for real-time personal health insights and accountability",
@@ -25,22 +23,26 @@ const Products = () => {
     description: "Dynamic global community of travelers comparing unique experiences, preferences, and learnings",
     status: "Research Phase | Currently Below the Line"
   }];
-  return <div className="min-h-screen text-foreground transition-all duration-500 bg-cover bg-center bg-no-repeat" style={{
-    backgroundImage: isHovered ? `url(${blueprintBg})` : 'none',
-    backgroundColor: isHovered ? 'transparent' : 'hsl(var(--background))'
-  }}>
+  return <div className="min-h-screen text-foreground bg-background">
       <Navigation />
       
       <main className="pt-32 pb-20 container mx-auto px-6">
-        <h1 className="text-5xl font-bold mb-4 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent transition-all duration-500" style={isHovered ? {
-        WebkitTextStroke: '1px white'
-      } : {}}>
+        <h1 className="text-5xl font-bold mb-4 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
           The Foundry
         </h1>
         <p className="text-xl text-muted-foreground mb-12 max-w-2xl">Our pipeline of innovative products and platforms</p>
         
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {products.map((product, index) => <Card key={index} className="bg-card border-border hover:border-primary hover:bg-card/80 transition-colors" onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
+          {products.map((product, index) => <Card key={index} className="bg-card border-border hover:border-primary transition-all duration-300 hover:shadow-lg hover:shadow-primary/20" style={{
+              backgroundImage: 'none',
+              transition: 'all 0.3s ease'
+            }} onMouseEnter={(e) => {
+              e.currentTarget.style.backgroundImage = `url(${blueprintBg})`;
+              e.currentTarget.style.backgroundSize = 'cover';
+              e.currentTarget.style.backgroundPosition = 'center';
+            }} onMouseLeave={(e) => {
+              e.currentTarget.style.backgroundImage = 'none';
+            }}>
               <CardHeader>
                 <CardTitle className="text-primary">{product.title}</CardTitle>
                 <CardDescription className="text-accent">{product.status}</CardDescription>
