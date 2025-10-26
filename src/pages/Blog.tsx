@@ -4,7 +4,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 const Blog = () => {
   const posts = [
     {
-      title: "Reviewing the selection of core technologies that underpin Barlow Labs' product development",
+      title: "Reviewing the selection of core technologies that underpin Barlow Labs' product development and customer identification process",
       date: "Q4, 2025 (not yet published)",
       excerpt: "Discussion of our initial selection of microcontroller/processors, comms protocols, IDE selection, AI toolsets, and approach to PMF."
     }
