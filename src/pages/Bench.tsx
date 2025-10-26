@@ -26,9 +26,11 @@ const Bench = () => {
               <p className="text-muted-foreground mb-4">
                 If you have been provided with user credentials, you can access our pilot test environments here.
               </p>
-              <Button variant="outline" className="w-full" disabled>
-                <ExternalLink className="mr-2 h-4 w-4" />
-                No Active Pilots
+              <Button variant="outline" className="w-full" asChild>
+                <a href="https://nimble-phoenix-de308d.netlify.app/" target="_blank" rel="noopener noreferrer">
+                  <ExternalLink className="mr-2 h-4 w-4" />
+                  View Active Pilot
+                </a>
               </Button>
             </CardContent>
           </Card>
