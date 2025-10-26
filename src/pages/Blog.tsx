@@ -6,7 +6,7 @@ const Blog = () => {
     {
       title: "Reviewing the selection of core technologies that underpin Barlow Labs' product development",
       date: "Q4, 2025 (not yet published)",
-      excerpt: "Scoring existing technologies on their contribution to the Humans Over Technology H.O.T. scale and why you should care. Or if you don't care, why this makes you a horrible human being..."
+      excerpt: "Discussion of our initial selection of microcontroller/processors, comms protocols, IDE selection, AI toolsets, and approach to PMF."
     }
   ];
 
