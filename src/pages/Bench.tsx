@@ -19,6 +19,19 @@ const Bench = () => {
         <div className="grid md:grid-cols-2 gap-6 max-w-4xl">
           <Card className="bg-card border-border">
             <CardHeader>
+              <CardTitle className="text-primary">Getting Started</CardTitle>
+              <CardDescription>Information for pilot testers</CardDescription>
+            </CardHeader>
+            <CardContent>
+              <p className="text-muted-foreground">
+                To participate in pilot testing, you must have received invitation credentials from our team. 
+                Contact us if you're interested in becoming a pilot tester.
+              </p>
+            </CardContent>
+          </Card>
+
+          <Card className="bg-card border-border">
+            <CardHeader>
               <CardTitle className="text-primary">Test Environment Access</CardTitle>
               <CardDescription>Active pilot programs available for testing</CardDescription>
             </CardHeader>
@@ -32,19 +45,6 @@ const Bench = () => {
                   View Active Pilot
                 </a>
               </Button>
-            </CardContent>
-          </Card>
-
-          <Card className="bg-card border-border">
-            <CardHeader>
-              <CardTitle className="text-primary">Getting Started</CardTitle>
-              <CardDescription>Information for pilot testers</CardDescription>
-            </CardHeader>
-            <CardContent>
-              <p className="text-muted-foreground">
-                To participate in pilot testing, you must have received invitation credentials from our team. 
-                Contact us if you're interested in becoming a pilot tester.
-              </p>
             </CardContent>
           </Card>
         </div>
