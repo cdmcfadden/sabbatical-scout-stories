@@ -16,7 +16,7 @@ const Blog = () => {
       
       <main className="pt-32 pb-20 container mx-auto px-6">
         <h1 className="text-5xl font-bold mb-4 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-          Blog
+          Updates
         </h1>
         <p className="text-xl text-muted-foreground mb-12 max-w-2xl">
           Insights, updates, and thoughts from the Barlow Labs team
