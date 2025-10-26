@@ -23,12 +23,6 @@ const Navigation = () => {
               Foundry
             </Link>
             <Link 
-              to="/story" 
-              className="text-muted-foreground hover:text-foreground transition-colors"
-            >
-              Story
-            </Link>
-            <Link 
               to="/bench" 
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
@@ -39,6 +33,12 @@ const Navigation = () => {
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
               Blog
+            </Link>
+            <Link 
+              to="/story" 
+              className="text-muted-foreground hover:text-foreground transition-colors"
+            >
+              Story
             </Link>
           </div>
         </div>
