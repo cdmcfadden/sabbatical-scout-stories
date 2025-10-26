@@ -48,7 +48,7 @@ const Products = () => {
           className="text-5xl font-bold mb-4 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent transition-all duration-500"
           style={isHovered ? { WebkitTextStroke: '1px white' } : {}}
         >
-          Our Products
+          The Foundry
         </h1>
         <p className="text-xl text-muted-foreground mb-12 max-w-2xl">
           Innovative solutions designed to serve the user

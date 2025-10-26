@@ -20,7 +20,7 @@ const Navigation = () => {
               to="/products" 
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
-              Products
+              The Foundry
             </Link>
             <Link 
               to="/story" 
