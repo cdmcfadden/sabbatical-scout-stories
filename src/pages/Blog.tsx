@@ -19,7 +19,7 @@ const Blog = () => {
           Updates
         </h1>
         <p className="text-xl text-muted-foreground mb-12 max-w-2xl">
-          Insights, updates, and thoughts from the Barlow Labs team
+          Insights and thoughts from the Barlow Labs team
         </p>
         
         <div className="max-w-4xl space-y-6">
