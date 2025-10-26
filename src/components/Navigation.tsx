@@ -34,6 +34,12 @@ const Navigation = () => {
             >
               Blog
             </Link>
+            <Link 
+              to="/bench" 
+              className="text-muted-foreground hover:text-foreground transition-colors"
+            >
+              Bench
+            </Link>
           </div>
         </div>
       </div>
