@@ -23,7 +23,7 @@ const Products = () => {
     status: "Ideation Phase | Stay Tuned...",
     backgroundPosition: "0% 100%"
   }, {
-    title: "The Brevists",
+    title: "Brevist",
     description: "Dynamic global community of travelers comparing unique experiences, preferences, and learnings",
     status: "Research Phase | Currently Below the Line",
     backgroundPosition: "100% 100%"
