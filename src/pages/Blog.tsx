@@ -7,16 +7,6 @@ const Blog = () => {
       title: "Sparkline: Introducing the H.O.T. Composite Index",
       date: "November 15, 2025 (not yet published)",
       excerpt: "Scoring existing technologies on their contribution to the Humans Over Technology H.O.T. scale and why you should care. Or if you don't care, why this makes you a horrible human being..."
-    },
-    {
-      title: "2 Security Breaches at MIT - and I promise neither was my fault!",
-      date: "November 30, 2025 (not yet published)",
-      excerpt: "Which is harder to bypass on campus at MIT: platform security protocols protected by some of the biggest brains on the planet, or physical (campus) security, protected by guys whose necks are somehow impossibly wider than their heads? There was only one risky way to find out..."
-    },
-    {
-      title: "Amazon Buys Their Way In: Zoox and the H.O.T. score for self-driving cars",
-      date: "December 15, 2025 (not yet published)",
-      excerpt: "Today's self-driving vehicles may not have the charisma and raw sex appeal of a Total Recall \"Johnny Cab\" but there is no denying the massive upheaval they have been just about to unleash across society for the last 20 years..."
     }
   ];
 
