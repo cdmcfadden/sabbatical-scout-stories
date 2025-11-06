@@ -2,10 +2,8 @@ import Navigation from '@/components/Navigation';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { ExternalLink } from 'lucide-react';
-
 const Bench = () => {
-  return (
-    <div className="min-h-screen bg-background text-foreground">
+  return <div className="min-h-screen bg-background text-foreground">
       <Navigation />
       
       <main className="pt-32 pb-20 container mx-auto px-6">
@@ -40,8 +38,7 @@ const Bench = () => {
                 If you have been provided with user credentials, you can access our pilot test environments here.
               </p>
               <Button variant="outline" className="w-full" asChild>
-                <a href="https://nimble-phoenix-de308d.netlify.app/" target="_blank" rel="noopener noreferrer">
-                  <ExternalLink className="mr-2 h-4 w-4" />
+                <a href="https://nimble-phoenix-de308d.netlify.app/" target="_blank" rel="noopener noreferrer">View Active Pilot #1: F2L<ExternalLink className="mr-2 h-4 w-4" />
                   View Active Pilot
                 </a>
               </Button>
@@ -49,8 +46,6 @@ const Bench = () => {
           </Card>
         </div>
       </main>
-    </div>
-  );
+    </div>;
 };
-
 export default Bench;
