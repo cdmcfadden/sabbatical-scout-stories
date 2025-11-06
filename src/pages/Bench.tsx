@@ -44,8 +44,7 @@ const Bench = () => {
                 </a>
               </Button>
               <Button variant="outline" className="w-full" asChild>
-                <a href="#" target="_blank" rel="noopener noreferrer">
-                  <ExternalLink className="mr-2 h-4 w-4" />
+                <a href="#" target="_blank" rel="noopener noreferrer">View Active Pilot #2: Tuesdays<ExternalLink className="mr-2 h-4 w-4" />
                   Portal to Active Pilot #2: Tuesdays
                 </a>
               </Button>
