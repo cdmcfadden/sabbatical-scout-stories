@@ -37,11 +37,9 @@ const Bench = () => {
               <p className="text-muted-foreground mb-4">
                 If you have been provided with user credentials, you can access our pilot test environments here.
               </p>
-              <Button variant="outline" className="w-full mb-3" asChild>
-                <a target="_blank" rel="noopener noreferrer" href="">
-                  <ExternalLink className="mr-2 h-4 w-4" />
-                  View Active Pilot #1: F2L
-                </a>
+              <Button variant="outline" className="w-full mb-3">
+                <ExternalLink className="mr-2 h-4 w-4" />
+                View Active Pilot #1: F2L
               </Button>
               <Button variant="outline" className="w-full">
                 <ExternalLink className="mr-2 h-4 w-4" />
