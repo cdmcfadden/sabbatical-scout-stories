@@ -38,7 +38,7 @@ const Bench = () => {
                 If you have been provided with user credentials, you can access our pilot test environments here.
               </p>
               <Button variant="outline" className="w-full mb-3" asChild>
-                <a href="https://nimble-phoenix-de308d.netlify.app/" target="_blank" rel="noopener noreferrer">
+                <a target="_blank" rel="noopener noreferrer" href="">
                   <ExternalLink className="mr-2 h-4 w-4" />
                   View Active Pilot #1: F2L
                 </a>
