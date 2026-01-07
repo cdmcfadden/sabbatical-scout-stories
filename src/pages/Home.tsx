@@ -23,21 +23,21 @@ const Home = () => {
             </h1>
             <div className="grid gap-3 max-w-2xl mx-auto">
               <Card className="bg-card/80 backdrop-blur-sm border-border/50 hover:border-primary/50 transition-colors">
-                <CardContent className="p-6">
+                <CardContent className="p-4">
                   <p className="text-lg text-muted-foreground">
                     <span className="text-foreground font-semibold">Our Guiding Principle:</span> Humanity Over Technology.
                   </p>
                 </CardContent>
               </Card>
               <Card className="bg-card/80 backdrop-blur-sm border-border/50 hover:border-primary/50 transition-colors">
-                <CardContent className="p-6">
+                <CardContent className="p-4">
                   <p className="text-lg text-muted-foreground">
                     <span className="text-foreground font-semibold">Our Product Design Ethic:</span> Rethink the human-machine interface based on an upgraded razor: a person must not serve their tech.
                   </p>
                 </CardContent>
               </Card>
               <Card className="bg-card/80 backdrop-blur-sm border-border/50 hover:border-primary/50 transition-colors">
-                <CardContent className="p-6">
+                <CardContent className="p-4">
                   <p className="text-lg text-muted-foreground">
                     <span className="text-foreground font-semibold">Our Customer Imperative:</span> Strive to leave no wo/man where we find them, alone, abandoned, or lost in the machinery. We promote search and rescue.
                   </p>
