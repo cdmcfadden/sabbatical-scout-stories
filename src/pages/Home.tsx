@@ -39,7 +39,7 @@ const Home = () => {
               <Card className="bg-card/80 backdrop-blur-sm border-border/50 hover:border-primary/50 transition-colors">
                 <CardContent className="p-6">
                   <p className="text-lg text-muted-foreground">
-                    <span className="text-foreground font-semibold">Our Customer Imperative:</span> Strive to leave no wo/man where we find them, alone, lost in the machinery. Search and rescue.
+                    <span className="text-foreground font-semibold">Our Customer Imperative:</span> Strive to leave no wo/man where we find them, alone, abandoned, or lost in the machinery. We promote search and rescue.
                   </p>
                 </CardContent>
               </Card>
