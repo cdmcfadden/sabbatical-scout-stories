@@ -10,7 +10,7 @@ const Products = () => {
   }, {
     title: "Resolv",
     description: "Scalable workflow creation tool w/ native real-time analytics",
-    status: "Prototype Phase | v1 Launch Anticipated Q1, 2026",
+    status: "Prototype Phase | v1 Launch Anticipated Q2, 2026",
     backgroundPosition: "100% 0%"
   }, {
     title: "Cambr",
