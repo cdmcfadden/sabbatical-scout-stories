@@ -23,10 +23,21 @@ const Home = () => {
           </div>
         </section>
 
-        {/* Features Section */}
+        {/* About Section */}
         <section className="py-12 container mx-auto px-6">
-          <div className="grid md:grid-cols-3 gap-8">
-            <div className="relative p-8 rounded-lg bg-card hover:!bg-white border border-border hover:border-primary transition-colors overflow-hidden group">
+          <div className="max-w-3xl mx-auto space-y-6 text-muted-foreground text-lg text-center">
+            <p>Our stealth venture develops human-centric tech. We are part of the revolution of builders obsessed with creating, harnessing, customizing, and controlling data to serve our own human needs. When done with purpose, we believe this unlocks forgotten levels of accountability and community.</p>
+            
+            <p>We practice like we play and are assembling a global network of domain experts, luminaries, and unorthodox dreamers that are passionate about contributing to a new way to size tech to the humans it must serve. Maybe you know one of those people or are one yourself.</p>
+            
+            <p>Our headquarters is in the fractal known as Seattle, surrounded by national parks, alpine lakes, and mountains still waiting to be named. We believe beautiful places make the best tech.</p>
+          </div>
+        </section>
+
+        {/* Feature Card Section */}
+        <section className="py-12 container mx-auto px-6">
+          <div className="flex justify-center">
+            <div className="relative p-8 rounded-lg bg-card hover:!bg-white border border-border hover:border-primary transition-colors overflow-hidden group max-w-md">
               <div className="relative z-10">
                 <h3 className="text-2xl font-bold mb-4 text-primary group-hover:text-black transition-colors">Humanity Over Technology</h3>
                 <p className="text-muted-foreground group-hover:text-black transition-colors">
@@ -34,33 +45,6 @@ const Home = () => {
                 </p>
               </div>
             </div>
-            <div className="relative p-8 rounded-lg bg-card hover:!bg-white border border-border hover:border-primary transition-colors overflow-hidden group">
-              <div className="relative z-10">
-                <h3 className="text-2xl font-bold mb-4 text-accent group-hover:text-black transition-colors">Humanity In Technology</h3>
-                <p className="text-muted-foreground group-hover:text-black transition-colors">
-                  Leveraging new analytics engines for insight on the human condition - we co-evolve together
-                </p>
-              </div>
-            </div>
-            <div className="relative p-8 rounded-lg bg-card hover:!bg-white border border-border hover:border-primary transition-colors overflow-hidden group">
-              <div className="relative z-10">
-                <h3 className="text-2xl font-bold mb-4 text-primary group-hover:text-black transition-colors">Humanity Through Technology</h3>
-                <p className="text-muted-foreground group-hover:text-black transition-colors">
-                  Making good on a new objective function - leave no wo/man where you found them
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        {/* About Section */}
-        <section className="py-12 container mx-auto px-6">
-          <div className="max-w-3xl space-y-6 text-muted-foreground text-lg">
-            <p>Our stealth venture develops human-centric tech. We are part of the revolution of builders obsessed with creating, harnessing, customizing, and controlling data to serve our own human needs. When done with purpose, we believe this unlocks forgotten levels of accountability and community.</p>
-            
-            <p>We practice like we play and are assembling a global network of domain experts, luminaries, and unorthodox dreamers that are passionate about contributing to a new way to size tech to the humans it must serve. Maybe you know one of those people or are one yourself.</p>
-            
-            <p>Our headquarters is in the fractal known as Seattle, surrounded by national parks, alpine lakes, and mountains still waiting to be named. We believe beautiful places make the best tech.</p>
           </div>
         </section>
       </main>
