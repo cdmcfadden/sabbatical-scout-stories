@@ -49,19 +49,6 @@ const Home = () => {
           </div>
         </section>
 
-        {/* Feature Card Section */}
-        <section className="py-12 container mx-auto px-6">
-          <div className="flex justify-center">
-            <div className="relative p-8 rounded-lg bg-card hover:!bg-white border border-border hover:border-primary transition-colors overflow-hidden group max-w-2xl w-full text-center">
-              <div className="relative z-10">
-                <h3 className="text-2xl font-bold mb-4 text-primary group-hover:text-black transition-colors">Humanity Over Technology</h3>
-                <p className="text-muted-foreground group-hover:text-black transition-colors">
-                  Building products based on a new razor for society - a person must not serve their tech
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
       </main>
     </div>;
 };
