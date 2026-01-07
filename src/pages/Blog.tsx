@@ -5,7 +5,7 @@ const Blog = () => {
   const posts = [
     {
       title: "Reviewing the selection of core technologies that underpin Barlow Labs' product development and customer identification process",
-      date: "Q4, 2025 (not yet published)",
+      date: "Coming Q1, 2026",
       excerpt: "Discussion of our initial selection of microcontroller/processors, comms protocols, IDE selection, AI toolsets, and approach to PMF."
     }
   ];
