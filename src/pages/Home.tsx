@@ -19,9 +19,11 @@ const Home = () => {
             <h1 className="text-6xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent">
               Welcome to Barlow Labs
             </h1>
-            <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">Our Guiding Principle: Humanity Over Technology. 
-Our Product Design Ethic: Rethink the human-machine interface based on an upgraded razor: a person must not serve their tech. 
-Our Customer Imperative: Strive to leave no wo/man where we find them, alone, lost in the machinery. Search and rescue.                       
+            <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">- Our Guiding Principle: Humanity Over Technology. 
+
+- Our Product Design Ethic: Rethink the human-machine interface based on an upgraded razor: a person must not serve their tech. 
+
+- Our Customer Imperative: Strive to leave no wo/man where we find them, alone, lost in the machinery. Search and rescue.                       
                                                                                                                                                          </p>
           </div>
         </section>
