@@ -14,20 +14,7 @@ const Bench = () => {
           Access pilot test websites and applications. User credentials required for participation.
         </p>
         
-        <div className="grid md:grid-cols-2 gap-6 max-w-4xl">
-          <Card className="bg-card border-border">
-            <CardHeader>
-              <CardTitle className="text-primary">Getting Started</CardTitle>
-              <CardDescription>Information for pilot testers</CardDescription>
-            </CardHeader>
-            <CardContent>
-              <p className="text-muted-foreground">
-                To participate in pilot testing, you must have received invitation credentials from our team. 
-                Contact us if you're interested in becoming a pilot tester.
-              </p>
-            </CardContent>
-          </Card>
-
+        <div className="max-w-xl">
           <Card className="bg-card border-border">
             <CardHeader>
               <CardTitle className="text-primary">Test Environment Access</CardTitle>
