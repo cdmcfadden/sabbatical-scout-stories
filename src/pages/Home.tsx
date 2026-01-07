@@ -1,12 +1,14 @@
 import Navigation from '@/components/Navigation';
 import heroImage from '@/assets/barlow-hero.jpeg';
+import { Card, CardContent } from '@/components/ui/card';
+
 const Home = () => {
   return <div className="min-h-screen bg-background text-foreground">
       <Navigation />
       
       <main className="pt-20">
         {/* Hero Section */}
-        <section className="relative h-[60vh] flex items-center justify-center overflow-hidden">
+        <section className="relative min-h-[70vh] flex items-center justify-center overflow-hidden py-12">
           <div className="absolute inset-0 z-0" style={{
           backgroundImage: `url(${heroImage})`,
           backgroundSize: 'cover',
@@ -16,19 +18,31 @@ const Home = () => {
           <div className="absolute inset-0 bg-gradient-to-b from-background/50 via-background/80 to-background z-0" />
           
           <div className="relative z-10 container mx-auto px-6 text-center">
-            <h1 className="text-6xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent">
+            <h1 className="text-6xl md:text-7xl font-bold mb-10 bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent">
               Welcome to Barlow Labs
             </h1>
-            <div className="space-y-4 max-w-2xl mx-auto">
-              <p className="text-xl md:text-2xl text-muted-foreground">
-                Our Guiding Principle: Humanity Over Technology.
-              </p>
-              <p className="text-xl md:text-2xl text-muted-foreground">
-                Our Product Design Ethic: Rethink the human-machine interface based on an upgraded razor: a person must not serve their tech.
-              </p>
-              <p className="text-xl md:text-2xl text-muted-foreground">
-                Our Customer Imperative: Strive to leave no wo/man where we find them, alone, lost in the machinery. Search and rescue.
-              </p>
+            <div className="grid gap-6 max-w-4xl mx-auto md:grid-cols-3">
+              <Card className="bg-card/80 backdrop-blur-sm border-border/50 hover:border-primary/50 transition-colors">
+                <CardContent className="p-6">
+                  <p className="text-lg text-muted-foreground">
+                    <span className="text-foreground font-semibold">Our Guiding Principle:</span> Humanity Over Technology.
+                  </p>
+                </CardContent>
+              </Card>
+              <Card className="bg-card/80 backdrop-blur-sm border-border/50 hover:border-primary/50 transition-colors">
+                <CardContent className="p-6">
+                  <p className="text-lg text-muted-foreground">
+                    <span className="text-foreground font-semibold">Our Product Design Ethic:</span> Rethink the human-machine interface based on an upgraded razor: a person must not serve their tech.
+                  </p>
+                </CardContent>
+              </Card>
+              <Card className="bg-card/80 backdrop-blur-sm border-border/50 hover:border-primary/50 transition-colors">
+                <CardContent className="p-6">
+                  <p className="text-lg text-muted-foreground">
+                    <span className="text-foreground font-semibold">Our Customer Imperative:</span> Strive to leave no wo/man where we find them, alone, lost in the machinery. Search and rescue.
+                  </p>
+                </CardContent>
+              </Card>
             </div>
           </div>
         </section>
