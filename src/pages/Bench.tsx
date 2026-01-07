@@ -41,9 +41,13 @@ const Bench = () => {
                 <ExternalLink className="mr-2 h-4 w-4" />
                 View Active Pilot #1: F2L
               </Button>
-              <Button variant="outline" className="w-full">
+              <Button variant="outline" className="w-full mb-3">
                 <ExternalLink className="mr-2 h-4 w-4" />
                 Portal to Active Pilot #2: Tuesdays
+              </Button>
+              <Button variant="outline" className="w-full">
+                <ExternalLink className="mr-2 h-4 w-4" />
+                Portal to Pilot #3: Forge Dispatch
               </Button>
             </CardContent>
           </Card>
