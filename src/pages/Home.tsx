@@ -21,7 +21,7 @@ const Home = () => {
             <h1 className="text-6xl md:text-7xl font-bold mb-10 bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent">
               Welcome to Barlow Labs
             </h1>
-            <div className="grid gap-6 max-w-4xl mx-auto md:grid-cols-3">
+            <div className="grid gap-6 max-w-2xl mx-auto">
               <Card className="bg-card/80 backdrop-blur-sm border-border/50 hover:border-primary/50 transition-colors">
                 <CardContent className="p-6">
                   <p className="text-lg text-muted-foreground">
