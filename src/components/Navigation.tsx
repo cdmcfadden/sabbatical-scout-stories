@@ -14,12 +14,14 @@ const Navigation = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const navLinks = [
-    { to: "/about", label: "About" },
     { to: "/products", label: "Foundry" },
     { to: "/bench", label: "Bench" },
     { to: "/blog", label: "Updates" },
     { to: "/story", label: "Story" },
-    { to: "/forge-dispatch", label: "Forge Dispatch" },
+  ];
+
+  const externalLinks = [
+    { href: "https://klickway-athletics-g-8kmx.bolt.host", label: "[Forge Dispatch]" },
   ];
 
   return (
@@ -40,6 +42,17 @@ const Navigation = () => {
               >
                 {link.label}
               </Link>
+            ))}
+            {externalLinks.map((link) => (
+              <a 
+                key={link.href}
+                href={link.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-muted-foreground hover:text-foreground transition-colors"
+              >
+                {link.label}
+              </a>
             ))}
           </div>
 
@@ -64,6 +77,18 @@ const Navigation = () => {
                   >
                     {link.label}
                   </Link>
+                ))}
+                {externalLinks.map((link) => (
+                  <a 
+                    key={link.href}
+                    href={link.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-lg text-muted-foreground hover:text-foreground transition-colors"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    {link.label}
+                  </a>
                 ))}
               </div>
             </SheetContent>
