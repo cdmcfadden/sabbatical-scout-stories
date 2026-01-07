@@ -23,6 +23,11 @@ const Home = () => {
           </div>
         </section>
 
+        {/* Visual Divider */}
+        <div className="container mx-auto px-6">
+          <div className="h-px bg-gradient-to-r from-transparent via-primary/50 to-transparent" />
+        </div>
+
         {/* About Section */}
         <section className="py-12 container mx-auto px-6">
           <div className="max-w-3xl mx-auto space-y-6 text-muted-foreground text-lg text-center">
@@ -37,7 +42,7 @@ const Home = () => {
         {/* Feature Card Section */}
         <section className="py-12 container mx-auto px-6">
           <div className="flex justify-center">
-            <div className="relative p-8 rounded-lg bg-card hover:!bg-white border border-border hover:border-primary transition-colors overflow-hidden group max-w-md">
+            <div className="relative p-8 rounded-lg bg-card hover:!bg-white border border-border hover:border-primary transition-colors overflow-hidden group max-w-2xl w-full text-center">
               <div className="relative z-10">
                 <h3 className="text-2xl font-bold mb-4 text-primary group-hover:text-black transition-colors">Humanity Over Technology</h3>
                 <p className="text-muted-foreground group-hover:text-black transition-colors">
