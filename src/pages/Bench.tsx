@@ -45,10 +45,12 @@ const Bench = () => {
                 <ExternalLink className="mr-2 h-4 w-4" />
                 Portal to Active Pilot #2: Tuesdays
               </Button>
-              <Button variant="outline" className="w-full">
-                <ExternalLink className="mr-2 h-4 w-4" />
-                Portal to Pilot #3: Forge Dispatch
-              </Button>
+              <a href="https://klickway-athletics-g-8kmx.bolt.host" target="_blank" rel="noopener noreferrer" className="w-full">
+                <Button variant="outline" className="w-full">
+                  <ExternalLink className="mr-2 h-4 w-4" />
+                  Portal to Pilot #3: Forge Dispatch
+                </Button>
+              </a>
             </CardContent>
           </Card>
         </div>
